@@ -30,4 +30,4 @@ retorno.getRazao_social();
 ```
 
 
-### [Demo](https://github.com/mrlmarlon/Cnpj.ws/blob/master/src/main/java/com/github/mrlmarlon/Demo.java)
+### [Demo](https://github.com/mrlmarlon/Cnpj.ws/blob/main/src/main/java/com/github/mrlmarlon/Demo.java)
