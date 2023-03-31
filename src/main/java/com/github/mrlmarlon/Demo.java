@@ -15,5 +15,6 @@ public class Demo {
         System.out.println(wp.getCnpj_raiz());
         System.out.println(wp.getRazao_social());
 
+        
     }
 }
