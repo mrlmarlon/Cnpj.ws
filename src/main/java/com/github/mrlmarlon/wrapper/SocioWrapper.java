@@ -1,34 +1,18 @@
 package com.github.mrlmarlon.wrapper;
 
+import lombok.Data;
+
+import java.util.Date;
+
+@Data
 public class SocioWrapper {
 
+    private String cpf_cnpj_socio;
     private String nome;
-
-    private String qual;
-
-    private String pais_origem;
-
-    private String nome_rep_legal;
-
-    private String qual_rep_legal;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public String getQual() {
-        return qual;
-    }
-
-    public String getPais_origem() {
-        return pais_origem;
-    }
-
-    public String getNome_rep_legal() {
-        return nome_rep_legal;
-    }
-
-    public String getQual_rep_legal() {
-        return qual_rep_legal;
-    }
+    private String tipo;
+    private Date data_entrada;
+    private String cpf_representante_legal;
+    private String nome_representante;
+    private Date atualizado_em;
+    private String pais_id;
 }
